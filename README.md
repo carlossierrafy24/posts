@@ -38,8 +38,8 @@
 
 
 - State Management
-    - use Redux or MobX or React Context API to manage state of the user login
-    - Post sign in, if the screen is refreshed, the user login state should remain
+    - use Redux or MobX or React Context API to manage state of the user login - ok
+    - Post sign in, if the screen is refreshed, the user login state should remain - ok
 
 
 
