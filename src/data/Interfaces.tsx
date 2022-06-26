@@ -36,3 +36,9 @@ export interface User {
         bs: string;
     };
 }
+
+export interface Session {
+    email: string;
+    username: string;
+    password: string;
+}

@@ -1,3 +1,4 @@
+import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Fragment } from 'react';
 import Home from './home/Home';
@@ -27,5 +28,4 @@ const App: React.FC = function () {
         </Router>
     );
 };
-
 export default App;
