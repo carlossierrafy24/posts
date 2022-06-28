@@ -3,19 +3,23 @@ import { createSlice } from '@reduxjs/toolkit';
 type UserType = {
     isAuthenticated: boolean;
     name: string;
+    email: string;
 };
 
 const initialState: UserType = {
     isAuthenticated: true,
-    name: 'Jonh Doe'
+    name: '',
+    email: ''
 };
+
 const userSlice = createSlice({
     name: 'user',
     initialState,
     reducers: {
-        login: (state) => {
+        login: (state, action) => {
             state.isAuthenticated = true;
-            state.name = 'John Doe';
+            state.name = action.payload.name;
+            state.email = '';
         },
         logout: (state) => {
             state.isAuthenticated = false;

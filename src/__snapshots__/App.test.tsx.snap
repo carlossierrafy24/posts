@@ -1,0 +1,335 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div>
+          <nav
+            class="flex justify-between items-center py-0 px-5 fixed h-16 bg-indigo-500 top-0 left-0 right-0 z-1"
+          >
+            <div
+              class="flex justify-center items-center"
+            >
+              <div
+                class="text-2xl font-bold text-white mr-3"
+              >
+                Home
+              </div>
+              <div>
+                <a
+                  class="text-white text-xl font-semibold hover:bg-indigo-300 hover:rounded-md py-1 px-2 mr-2"
+                  href="/dashboard"
+                >
+                  Dashboard
+                </a>
+              </div>
+            </div>
+            <div>
+              <div
+                class="text-center"
+              >
+                <h5
+                  class="text-lg text-white mr-2"
+                />
+                <a
+                  class="text-white text-xl font-semibold hover:bg-indigo-300 hover:rounded-md px-2 py-1"
+                  href="/"
+                >
+                  Logout ⤵️
+                </a>
+              </div>
+            </div>
+          </nav>
+          <div
+            class="bg-white overflow-hidden mt-8 ml-6 flex justify-center items-center"
+          >
+            <div
+              class=" pb-72 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48"
+            >
+              <div
+                class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static"
+              >
+                <div
+                  class="sm:max-w-lg"
+                >
+                  <h1
+                    class="text-4xl font font-extrabold tracking-tight text-gray-900 sm:text-6xl"
+                  >
+                    Posts & Comments
+                  </h1>
+                  <p
+                    class="mt-4 text-xl text-gray-500"
+                  >
+                    React-Redux-Typescript application developed by
+                     
+                    <a
+                      class="text-blue-500"
+                      href="https://github.com/carlossierrafy24"
+                    >
+                      carlossierrafy24
+                    </a>
+                  </p>
+                </div>
+                <div>
+                  <div
+                    class="mt-8"
+                  />
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                aria-hidden="true"
+                class="pointer-events-none"
+              >
+                <img
+                  alt="stack"
+                  class="mx-auto"
+                  src="./image.png"
+                  width="70%"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <nav
+          class="flex justify-between items-center py-0 px-5 fixed h-16 bg-indigo-500 top-0 left-0 right-0 z-1"
+        >
+          <div
+            class="flex justify-center items-center"
+          >
+            <div
+              class="text-2xl font-bold text-white mr-3"
+            >
+              Home
+            </div>
+            <div>
+              <a
+                class="text-white text-xl font-semibold hover:bg-indigo-300 hover:rounded-md py-1 px-2 mr-2"
+                href="/dashboard"
+              >
+                Dashboard
+              </a>
+            </div>
+          </div>
+          <div>
+            <div
+              class="text-center"
+            >
+              <h5
+                class="text-lg text-white mr-2"
+              />
+              <a
+                class="text-white text-xl font-semibold hover:bg-indigo-300 hover:rounded-md px-2 py-1"
+                href="/"
+              >
+                Logout ⤵️
+              </a>
+            </div>
+          </div>
+        </nav>
+        <div
+          class="bg-white overflow-hidden mt-8 ml-6 flex justify-center items-center"
+        >
+          <div
+            class=" pb-72 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48"
+          >
+            <div
+              class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static"
+            >
+              <div
+                class="sm:max-w-lg"
+              >
+                <h1
+                  class="text-4xl font font-extrabold tracking-tight text-gray-900 sm:text-6xl"
+                >
+                  Posts & Comments
+                </h1>
+                <p
+                  class="mt-4 text-xl text-gray-500"
+                >
+                  React-Redux-Typescript application developed by
+                   
+                  <a
+                    class="text-blue-500"
+                    href="https://github.com/carlossierrafy24"
+                  >
+                    carlossierrafy24
+                  </a>
+                </p>
+              </div>
+              <div>
+                <div
+                  class="mt-8"
+                />
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              aria-hidden="true"
+              class="pointer-events-none"
+            >
+              <img
+                alt="stack"
+                class="mx-auto"
+                src="./image.png"
+                width="70%"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <nav
+        class="flex justify-between items-center py-0 px-5 fixed h-16 bg-indigo-500 top-0 left-0 right-0 z-1"
+      >
+        <div
+          class="flex justify-center items-center"
+        >
+          <div
+            class="text-2xl font-bold text-white mr-3"
+          >
+            Home
+          </div>
+          <div>
+            <a
+              class="text-white text-xl font-semibold hover:bg-indigo-300 hover:rounded-md py-1 px-2 mr-2"
+              href="/dashboard"
+            >
+              Dashboard
+            </a>
+          </div>
+        </div>
+        <div>
+          <div
+            class="text-center"
+          >
+            <h5
+              class="text-lg text-white mr-2"
+            />
+            <a
+              class="text-white text-xl font-semibold hover:bg-indigo-300 hover:rounded-md px-2 py-1"
+              href="/"
+            >
+              Logout ⤵️
+            </a>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="bg-white overflow-hidden mt-8 ml-6 flex justify-center items-center"
+      >
+        <div
+          class=" pb-72 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48"
+        >
+          <div
+            class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static"
+          >
+            <div
+              class="sm:max-w-lg"
+            >
+              <h1
+                class="text-4xl font font-extrabold tracking-tight text-gray-900 sm:text-6xl"
+              >
+                Posts & Comments
+              </h1>
+              <p
+                class="mt-4 text-xl text-gray-500"
+              >
+                React-Redux-Typescript application developed by
+                 
+                <a
+                  class="text-blue-500"
+                  href="https://github.com/carlossierrafy24"
+                >
+                  carlossierrafy24
+                </a>
+              </p>
+            </div>
+            <div>
+              <div
+                class="mt-8"
+              />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            aria-hidden="true"
+            class="pointer-events-none"
+          >
+            <img
+              alt="stack"
+              class="mx-auto"
+              src="./image.png"
+              width="70%"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

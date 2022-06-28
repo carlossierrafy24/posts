@@ -39,11 +39,14 @@ const Pagination: React.FC = (): JSX.Element => {
         currentPage > 1 && setCurrentPage(currentPage - 1);
     };
 
+    const prevClass = `navigation-btn${currentPage === 1 ? ' disabled' : ''}`;
+    const nextClass = `navigation-btn${currentPage === 10 ? ' disabled' : ''}`;
+
     return (
         <div>
             <Page post={posts.slice(currentPage === 1 ? 0 : currentPage * 10 - 10, currentPage === 1 ? 10 : currentPage * 10)} comment={comments} users={users} />
             <div className="pagination">
-                <button className="navigation-btn" onClick={handlePreviousPage}>
+                <button className={prevClass} onClick={handlePreviousPage}>
                     Prev
                 </button>
                 <div>
@@ -53,7 +56,7 @@ const Pagination: React.FC = (): JSX.Element => {
                         </button>
                     ))}
                 </div>
-                <button className="navigation-btn" onClick={handleNextPage}>
+                <button className={nextClass} onClick={handleNextPage}>
                     Next
                 </button>
             </div>
